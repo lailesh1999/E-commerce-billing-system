@@ -1,0 +1,127 @@
+supplier_tbl,
+supp_id,
+Supp_name,
+sup_contact,
+email,
+gst,
+addr,
+status_by_default zero,
+deleted by_default zero,
+created_by_id,
+updated_by_id,
+inserted_by_id
+
+
+buy_supplier_tbl,
+buy_supp_id,
+product_id,
+supplier_id,
+quantity,
+purchase_price,
+invoice_number,
+created_by_id,
+deleted_by_id,
+inserted_by_id,
+status,
+
+
+
+
+admin_tbl
+admin_id AI Int,
+User name vachar,
+Password varchar,
+Role,
+created_date,
+
+Unit_tbl
+unit_id
+unit_name
+status by default zero 
+deleted by default zero
+created_date by default current date
+inserted_by_id
+updated_by_id
+deleted_by_id
+
+tax_tbl
+tax_id
+tax_rate
+status by default zero 
+deleted by default zero
+created_date by default current date
+inserted_by_id
+updated_by_id
+deleted_by_id
+
+category_tb1
+category_id AI Int,
+Category_name,
+Category_image,
+status by default zero 
+deleted by default zero
+created_date by default current date
+inserted_by_id
+updated_by_id
+deleted_by_id
+
+
+
+sub_category_tb1
+sub_catid,
+category_id,
+sub_cat_name,
+status by default zero, 
+created_date by default current date,
+deleted by default zero,
+inserted_by_id
+updated_by_id
+deleted_by_id
+
+product_tbl
+product_id
+unit_id
+tax_id
+cat_id
+sub_cat_id
+product_name
+product_description
+product_code
+stock_status
+Qty
+product_price
+discount
+selling_price
+status by default zero, 
+created_date by default current date,
+deleted by default zero,
+inserted_by_id
+updated_by_id
+deleted_by_id
+
+
+
+customer_tbl,
+customer_id,
+customer_name,
+cust_addr,
+cust_phone number,
+cust_land_mark,
+cust_pin,
+cust_password,
+cust_email,
+status bu default zero,
+deleted by default_zero,
+created_date,
+inserted_by_id,
+updated_by_id,
+deleted_by_id,
+
+
+
+
+
+
+
+
+
